@@ -34,4 +34,3 @@ ax.annotate(f"Average: {avg}", (0.02, 0.9), xycoords="axes fraction")
 
 plt.tight_layout()
 plt.savefig("mrr_benchmark.png", dpi=150, bbox_inches="tight")
-# plt.show()  # optional
